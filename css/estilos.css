@@ -1,8 +1,7 @@
 body{
 	background: url(../imagenes/fondo.jpg);
 	background-attachment: scroll;
-  	background-repeat: no-repeat;
- 	background-size: cover;
+  	background-size: cover;
  	padding-top: 2%;
  	
 }
@@ -228,7 +227,8 @@ ie .webdesigntuts-workshop input {
 }
 
 .vertical-menu a:hover {
-    background-color: #ccc; 
+    background-color: #ccc;
+    color: #4CAF50; 
 }
 
 .vertical-menu a.active {
@@ -247,4 +247,61 @@ ie .webdesigntuts-workshop input {
 #favorito:hover{
 	padding: 4px;
     box-shadow: 5px 5px 5px #eee;
+}
+
+.vertical-menu2 {
+    width: 100%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.vertical-menu2 a {
+    background-color: #151515; 
+    color: #eee; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-weight: bold;
+    text-align: center;
+    border-right: 2px solid #4CAF50;
+    border-left: 2px solid #4CAF50;
+    
+}
+
+.vertical-menu2 a:hover {
+    background-color: #ccc;
+    color: #4CAF50;
+    border-right: 5px solid #151515;
+    border-left: 5px solid #151515;
+}
+.histo{
+	color: #eee;
+	background:#4CAF50;
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold; 
+}
+#contenido{
+	color: #eee;
+	text-align: justify;
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 2%;
+	font-size: 18px;
+	border-bottom: 1px solid #4CAF50;
+}
+#avatar{
+	width: 98%;
+    height: 40px;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+.comentarios{
+	color: #eee;
+	font-size: 18px;
+	text-align: justify;
+	margin-right: 5%;
+	
+
 }
