@@ -258,6 +258,7 @@ ie .webdesigntuts-workshop input {
 .vertical-menu2 a {
     background-color: #151515; 
     color: #eee; 
+    font-size: 20px;
     display: block; 
     padding: 12px; 
     text-decoration: none; 
@@ -302,6 +303,24 @@ ie .webdesigntuts-workshop input {
 	font-size: 18px;
 	text-align: justify;
 	margin-right: 5%;
-	
-
+}
+.agregarcoment{
+	color: #eee;
+	background: #4CAF50;
+	height: 40px;
+	width: 170px;
+	margin-left: 76%;
+}
+.agregarcoment:hover{
+	background: #4B610B;
+	border-top: 5px solid #151515;
+}
+#comiendo{
+	width: 96%;
+    height: 180px;
+    margin-right:2%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-top: 4%;
+}
 }
